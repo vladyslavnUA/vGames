@@ -1,0 +1,368 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+<style>
+* {
+    background-color: black;
+}
+</style>
+
+
+<div class="container">
+    <div class="intro">
+        <h1>  welcome to vGame/s  </h1>
+        <img class="img border" src="https://cdn.dribbble.com/users/41866/screenshots/756200/rocket.gif">
+        <br>
+        <h4>Browse through our free collection of video games</h4>
+        <div class="topnav">
+            <a href="/about" class="btn btn-primary">About</a>
+            <a href="/#" class="btn btn-primary">Games</a>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="row">
+            <div class="col-lg-1">
+                test 1
+            </div>
+            <div class="col-lg-3">
+                test 3
+            </div>
+            <div class="col-lg-3">
+                test 3
+            </div>
+            <div class="col-lg-4">
+                test
+            </div>
+            <div class="col-lg-4">
+                test
+            </div>
+            <div class="col-lg-4">
+                test
+            </div>
+            <div class="col-lg-4">
+                test
+            </div>
+        </div>
+    </div>
+</div>
+<div class="game1">
+    <a href="/game1">
+        <img src="https://cdn1.kongcdn.com/game_icons/0052/9828/smubr_logo_250x200.png?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game1"><p class="p1">Battle Robot</p></a>
+</div>
+
+<div class="game2">
+    <a href="/game2">
+        <img src="https://cdn4.kongcdn.com/game_icons/0049/8412/dok_icon_250x200.jpg?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game2"><p class="p1">Dungeons of Kong</p></a>
+</div>
+
+<div class="game3">
+    <a href="/game3">
+        <img src="https://cdn3.kongcdn.com/game_icons/0046/5640/icon_coaster3_400_blur.jpg?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game3"><p class="p1">Coaster Racer 3.0</p></a>
+</div>
+
+<div class="game4">
+    <a href="/game4">
+        <img src="https://cdn4.kongcdn.com/game_icons/0044/8435/cgvsk2_250x200.png?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game4"><p class="p1">Cat God vs Sun King 2.0</p></a>
+</div>
+
+<div class="game5">
+    <a href="/game5">
+        <img src="https://www.htmlgames.com/uploaded/thumb/airportmanagement3300200.jpg" class="img1" style="width:93px;">
+    </a>
+    <a href="/game5"><p class="p1">Airport Management 3.0</p></a>
+</div>
+
+<div class="game6">
+    <a href="/game6">
+        <img src="https://cdn2.kongcdn.com/game_icons/0044/5519/KongThumb01.jpg?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game6"><p class="p1">Ice Run</p></a>
+</div>
+
+<div class="game7">
+    <a href="/game7">
+        <img src="https://cdn4.kongcdn.com/game_icons/0043/7935/mlegion.png?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game7"><p class="p1">Monsters Legions</p></a>
+</div>
+
+<div class="game8">
+    <a href="/game8">
+        <img src="https://cdn4.kongcdn.com/game_icons/0042/8428/icon_cookiequest_kong_250x200.jpg?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game8"><p class="p1">Flying Cookie Quest</p></a>
+</div>
+
+<div class="game9">
+    <a href="/game9">
+        <img src="https://cdn4.kongcdn.com/game_icons/0042/2372/250x200.png?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game9"><p class="p1">Effing Worms - Xmas</p></a>
+</div>
+
+<div class="game10">
+    <a href="/game10">
+        <img src="https://cdn4.kongcdn.com/game_icons/0042/2372/250x200.png?i10c=img.resize(width:93)" class="img1">
+    </a>
+    <a href="/game10"><p class="p1">Monsters Legions</p></a>
+</div>
+
+<div class="w3-table" style="visibility: hidden;">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Photo</th>
+                <th colspan="3">Description</th>
+                <th colspan="3">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>img</td>
+                <td>Description</td>
+                <td>EUR 12.345</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>Description</td>  
+                <td>EUR 12.345</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>Description</td>
+                <td>EUR 12.345</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="row-main">
+    <div class="middlepane01">
+        TEST
+    </div>
+    <div class="leftpane">
+        
+    </div>
+    <div class="rightpane">
+    
+    </div>
+</div>
+<div class="grid-container" >
+        <div class="grid-item g1">
+            <img src="https://cdn1.kongcdn.com/game_icons/0052/9828/smubr_logo_250x200.png?i10c=img.resize(width:50%)">
+
+        </div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+</div>
+<div class="container">
+    <div class="toppane">test</div>
+    <div class="leftpane"><h1>test</h1></div>
+    <div class="middlepane">test</div>
+    <div class="rightpane"><h1>test</h1></div>
+</div>
+<style>
+.loginform {
+    background-color: yellow;
+}
+</style>
+
+<link rel='stylesheet' type="text/css" href='static/css/login.css' />
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.fo {
+    color: orange;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(43, 219, 196); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+<div class="loginform">
+    <h2>Modal Login Form</h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+    
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label class="fo">
+            <input type="checkbox" checked="checked" name="remember"><a href="#">Remember me, pls</a>
+        </label>
+        </div>
+
+        <div class="container" style="background-color:black;">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw fo"><a href="#">Forgot password, again?</a></span>
+        </div>
+    </form>
+    </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<!-- TEST THESE LINKS
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+{% endblock %}

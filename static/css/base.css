@@ -1,0 +1,135 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+* {
+    background-color: black;
+}
+head {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    padding-top: 25px;
+    text-align: center;
+    /* display: inline-block; */
+    color: green;
+}
+h4 {
+    padding-left: 40px;
+    color: blue;
+    padding-bottom: 25px;
+}
+.img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* vertical-align: middle; grid container:
+    align-content: center;*/
+    align-self: center;
+}
+.img1 {
+    margin-left: 25px;
+}
+.border {
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
+.w3-table {
+    padding-left: 175px;
+    text-align: center;
+    color: orange;
+    height: 100px;
+    width: 100px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+th {
+    padding: 15px;
+}   
+
+.grid-container {
+    display: inline-grid;
+    color: green;
+    height: 950px;
+    width: 950px;
+    padding-left: 5%;
+    grid-template-columns: auto auto auto auto;
+    
+}
+[class|="grid-item"] {
+    /*background: orange;*/
+    padding: 50px;
+}
+/*[class*="g"] {
+    border: 2px solid red;
+}*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/*.column {
+    float: left;
+    padding-left: 50px;
+    width: 60px;
+    padding: 5px;
+    display: table-column-group;
+    text-align: justify;
+    width: 33.33%;
+}
+*/
+
+/* Clear floats after image containers */
+.row {
+    display: flex;
+  }
+p {
+    float: center;
+    color: red;
+}
+.p1 {
+    margin-left: 15px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    column-count: 6;
+}
+
+/* .columns {
+    column-count: 6;
+} */
+
+.intro .topnav{
+    width: 100%;
+    height: 75px;
+    border-collapse: separate;
+    margin-bottom: 15px;
+    column-span: all;
+}
+.row-main {
+    width: 100%;
+    height: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
