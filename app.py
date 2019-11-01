@@ -51,6 +51,10 @@ def game9():
 def game10():
     return render_template('game10.html')
 
+@app.route("/game11")
+def game11():
+    return render_template('game11.html')
+
 @app.route("/gamea")
 def gamea():
     return render_template('gamea.html')
